@@ -27,7 +27,7 @@ Project of Loopstudios landing page powered by Frontend Mentor. I used there <a 
 <ul>
 <h3>I used there:</h3>
 <li>CSS variables</li>
-<li>Media query for switching the mobile/desktop menu</li>
+<li>Media queries</li>
 <li>Accesability friendly HTML and CSS</li>
 <li>BEM for naming</li>
 <li>Every Layout</li>
