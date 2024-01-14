@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
+  
+  <title>Frontend Mentor | Loopstudios landing page</title>
+</head>
+<body>
+  
+<!-- Hero -->
+<section class="hero">
+  <div class="wrapper">
+    <header class="cluster">
+    <a href="#"><img class="logo hero-logo" src="images/logo.svg" alt="company logo"></a>
+      <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+        <img src="images/icon-hamburger.svg" alt="" class="icon-hamburger" aria-hidden="true" data-visible="true">
+        <img src="images/icon-close.svg" alt="" class="icon-close" aria-hidden="true"
+        data-visible="false">
+        <span class="sr-only">Menu</span>
+      </button>
+      <nav id="primary-navigation" class=" primary-navigation" role="list">
+        <a  class="fancy-link" href="#" role="listitem">About</a>
+        <a class="fancy-link" href="#" role="listitem">Careers</a>
+        <a  class="fancy-link" href="#" role="listitem">Events</a>
+        <a  class="fancy-link" href="#" role="listitem">Products</a>
+        <a  class="fancy-link" href="#" role="listitem">Support</a>
+      </nav>
+    </header>
+    <div class="hero-text">
+       <h1 class="hero-title box text-uppercase">Immersive experiences that deliver</h1>
+    </div>
+   
+  </div>
+</section>
+
+
+<section class="promo">
+    <div class="wrapper">
+      <div class="grid-overlap-xl text-center-s flow">
+        
+          <picture class="flex-center">
+            <source media="(max-width:500px)" srcset="images/mobile/image-interactive.jpg">
+            <img src="images/desktop/image-interactive.jpg" alt="">
+          </picture>
+     
+       
+          <div class="sidebar">
+            <div class="sidebar-content flow">
+              <h2>
+                The leader in interactive VR
+              </h2>
+              <p>
+                Founded in 2011, Loopstudios has been producing world-class virtual reality
+                projects for some of the best companies around the globe. Our award-winning
+                creations have transformed businesses through digital experiences that bind
+                to their brand.
+              </p>
+            </div>
+          </div>
+        
+      </div>
+    </div>
+</section>
+
+<section class="creations text-uppercase">
+<div class="wrapper">
+
+    <div class="creations-main-grid">
+      <h3 class="margin-inline-auto">Our creations</h3>
+      <div>
+        <ul class="grid" role="list">
+          <li class="card deep-earth"  role="listitem">
+            <h4>Deep <br>earth</h4>
+          </li>
+          <li class="card night-arcade" role="listitem">
+            <h4>Night <br>arcade</h4>
+          </li>
+          <li class="card soccer-team" role="listitem">
+            <h4>Soccer <br>team VR</h4>
+          </li>
+          <li class="card the-grid" role="listitem">
+            <h4>The <br>grid</h4>
+          </li>
+          <li class="card from-above" role="listitem">
+            <h4>From up <br>above VR</h4>
+          </li>
+          <li class="card pocket-borealis" role="listitem">
+            <h4>Pocket <br>borealis</h4>
+          </li>
+          <li class="card the-curiosity" role="listitem">
+            <h4>The <br>curiosity</h4>
+          </li>
+          <li class="card fisheye" role="listitem">
+            <h4>Make it <br>fisheye</h4>
+          </li>
+        </ul>
+      </div>
+
+      <div><button class="button">See all</button></div>
+    </div>
+
+</div>
+</section>
+
+<footer>
+  <div class="wrapper">
+    <div class="footer-flex text-center-s">
+      <div class="flow">
+        <img class="logo" src="images/logo.svg" alt="">
+        <nav class="footer-navigation" role="list">
+          <a class="fancy-link" href="#" role="listitem">About</a>
+          <a class="fancy-link" href="#" role="listitem">Careers</a>
+          <a class="fancy-link" href="#" role="listitem">Events</a>
+          <a class="fancy-link" href="#" role="listitem">Products</a>
+          <a class="fancy-link" href="#" role="listitem">Support</a>
+        </nav>
+      </div>
+      <div class="flow">
+        <ul class="socials" role="list">
+          <li><a  class="fancy-link" href="#"><img src="images/icon-facebook.svg" alt="our facebook"></a></li>
+          <li><a class="fancy-link" href="#"><img src="images/icon-twitter.svg" alt="our twitter"></a></li>
+          <li><a class="fancy-link" href="#"><img src="images/icon-pinterest.svg" alt="our pinterest"></a></li>
+          <li><a class="fancy-link" href="#"><img src="images/icon-instagram.svg" alt="our instagram"></a></li>
+        </ul>
+        <p class="margin-inline-auto">© 2021 Loopstudios. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+
+
+</html>
