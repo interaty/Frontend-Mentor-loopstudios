@@ -20,7 +20,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://prismatic-malabi-38fd37.netlify.app)
+[![Product Name Screen Shot][product-screenshot]](https://resplendent-douhua-c51011.netlify.app/)
 
 Project of Loopstudios landing page powered by Frontend Mentor. I used there <a href="https://every-layout.dev/">Every Layout</a> by <a href="https://andy-bell.co.uk/">Andy Bell</a> and <a href="https://heydonworks.com/">Heydon Pickering</a>. Every Layout helped me to make this site fully responsive without the need of media queries at all. I used there media query just for switch between mobile and desktop navigation.
 
